@@ -172,7 +172,9 @@ body {
 }
 
 .features-list-item {
-    flex-basis: calc((100% - 72px) / 4);
+    margin: 0;
+    padding-left: 0;
+    width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -329,10 +331,10 @@ body {
     row-gap: 48px;
 }
 
-.filters-subtitle-item {
-    width: calc((100% - 48px) / 3);
+.filter-subtitle-link {
     margin: 0;
     padding-left: 0;
+    width: calc((100% - 48px) / 3);
 }
 
 .filters-button {
