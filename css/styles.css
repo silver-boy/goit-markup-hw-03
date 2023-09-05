@@ -212,7 +212,7 @@ body {
 }
 
 .we-doing-list-item {
-    flex-basis: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-team {
