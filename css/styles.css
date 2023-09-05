@@ -7,6 +7,25 @@
 
 /* header */
 
+.header-main {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-main-div {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -21,6 +40,12 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-nav-link {
@@ -29,6 +54,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-address-link {
