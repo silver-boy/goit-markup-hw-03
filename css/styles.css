@@ -137,7 +137,8 @@ body {
 }
 
 .section-features {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-features-title {
@@ -171,7 +172,7 @@ body {
 }
 
 .features-list-item {
-    width calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .features-subtitle {
